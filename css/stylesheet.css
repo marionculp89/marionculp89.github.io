@@ -1,0 +1,126 @@
+/* GLOBAL STYLES*/
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+/*header styles*/
+header {
+  height: 120px;
+  background-color: #999999;
+}
+
+#logo {
+  width: 300px;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+}
+
+#logo h1:hover {
+  color: #660000;
+}
+
+#menu {
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+#menu ul{
+  display: inline-block;
+}
+
+#menu li{
+  display: block;
+  float: left;
+}
+
+#menu li:after {
+  content: " | ";
+  padding:0px 10px;
+}
+
+#menu a:hover {
+  color: #660000;
+}
+
+/* banner styles */
+
+#banner-home {
+  height: 250px;
+  background-color: #669999;
+}
+
+#banner-home h1{
+  text-align: center;
+  padding: 108px 0;
+  background-size: cover;
+  background: url(../img/ocean-mnts:banner.jpg) center;
+}
+
+/*blog styles*/
+
+.container{
+  width: 1200px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.blog-1, .blog-2{
+  width:384px;
+  float:left;
+  margin-right:24px;
+}
+
+.blog-3 {
+  width: 384px;
+  float:left;
+}
+
+.blog-image {
+  height: 285px;
+  width: 380px;
+  margin: 0px 2px;
+}
+
+#blog h2{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 2em;
+}
+
+#blog p{
+  text-align: justify;
+}
+
+.button{
+  padding: 15px 35px;
+  background-color:  #999999;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.button:hover{
+  background-color: #333;
+  color: #999999;
+}
