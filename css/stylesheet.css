@@ -111,16 +111,75 @@ header {
 }
 
 .button{
-  padding: 15px 35px;
+  padding: 5px 15px;
   background-color:  #999999;
   border: 2px solid #333333;
-  border-radius: 8px;
+  border-radius: 6px;
   display: inline-block;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 700;
 }
 
 .button:hover{
   background-color: #333;
   color: #999999;
+}
+
+/*about styles*/
+#about {
+  border: 2px dotted #333;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.align-left {
+  margin-right: 24px;
+  margin-top: 10px;
+  float: left;
+  width: 385px;
+}
+
+.selfie {
+  height: 400px;
+  width: 380px;
+}
+figure { margin: 0px;
+  padding: 0px;
+}
+#about h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+/*footer stylse*/
+footer {
+  margin-top: 20px;
+  clear: both;
+}
+
+#copyright {
+  padding: 30px;
+  background-color: #999999;
+  color: #660000;
+}
+
+#copyright p {
+  font-size: .5em;
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+.fa {
+  height: 28px;
+  width: 28px;
+  background-color: #660000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  font-size: 28px !important;
 }
