@@ -126,7 +126,11 @@ header {
 }
 
 /*about styles*/
+.container {
+  background-color: light gray;
+}
 #about {
+  background-color: #737373;
   border: 2px dotted #333;
   padding: 10px;
   border-radius: 4px;
